@@ -5,6 +5,29 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.btnB{
+    border: 2px solid #f38700 !important;
+    color:#f38700 !important;
+}
+
+.btnB:hover{
+    color: #faf8f9 !important;
+    background-color: #f38700;
+}
+
+.bgBanner{
+    background-image: url(../images/bgBase.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.txtBanner{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
 
 
 
