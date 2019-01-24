@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.ghsOne').animate({width:'97%'},2000);
+    $('.ghsTwo').animate({width:'84%'},2000);
+    $('.ghsThree').animate({width:'57%'},2000);
+    $('.ghsFour').animate({width:'13%'},2000);
+    $('.outOne').animate({width:'58%'},2000);
+    $('.outTwo').animate({width:'41%'},2000);
+    $('.outThree').animate({width:'32%'},2000);
+    $('.outFour').animate({width:'65%'},2000);
+}); 

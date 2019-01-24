@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,500i,600,700,800,900');
 
 body{
     background-color: #faf8f9;
@@ -28,6 +28,107 @@ body{
     font-size: 1.5em;
 }
 
+.bgText{
+    background-color: #cd4414;
+    color: #fff;
+}
+
+.bgContent{
+    background-color: #faf8f9;
+    background-image: url(../images/bgLines.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.bgContent02{
+    background-color: #fff;
+    background-image: url(../images/bgLines.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.txtSubOne{
+    text-align: center;
+    color: #636363;
+    font-weight: 600;
+}
+
+.txtOne{
+    text-align: center;
+    color: #636363;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.txtTwo{
+    text-align: center;
+    color: #636363;
+    font-size: 0.9em;
+}
+
+.main{
+    margin: 50px auto;
+    width: 60%;
+}
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+    margin-bottom: 0px;
+}
+.progress_value{
+    line-height: 1.6;
+    z-index: 10000;
+    background-color: #f1f0f0;
+    border-radius: 5px;
+}
+.progress{
+    height: 25px;
+    position: absolute;
+    border-radius: 5px;
+}
+.ghsOne, .ghsTwo, .ghsThree, .ghsFour{
+    background: #fa9600;
+}
+
+.outOne, .outTwo, .outThree, .outFour{
+    background: #b3b3b3;
+}
+
+h4{
+    color: #636363;
+}
+
+.marZero{
+    margin: 0;
+    padding: 0;
+}
+
+.txtInfo{
+    color: #b3b3b3;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.txtInfoZ{
+    margin-bottom: -10px;
+}
+
+.margInfo{
+    margin-top: 7%;
+}  
+
+.txtInfos, .txtBarTitle{
+    color: #636363;
+    font-size: 1em;
+}
 
 
 
