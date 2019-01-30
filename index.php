@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center display-3">Transforme cliques<br/>em vendas!</h1>
+            <h1 class="text-center display-3 tituloOne">Transforme cliques<br/>em vendas!</h1>
             <p class="text-center mt-5"><a href="#" class="btn btn-primary">Solicitar Contato</a></p>
           </div>
         </div>
@@ -50,7 +50,7 @@
       <div class="container">
         <div class="row my-5">
           <div class="col-12">
-            <p class="display-4 text-center font-weight-bold">Porque usar o <span class="bgText pl-2 pr-2">Go Hot Sale</span></p>
+            <p class="display-4 text-center font-weight-bold txtHow">Porque usar o <span class="bgText pl-2 pr-2">Go Hot Sale</span></p>
             <p class="txtSubOne pt-3">É a ferramenta perfeita para melhorar seus resultados em vendas,<br/>fidelizar seus clientes e ainda economizar muito!</p>
           </div>
         </div>
@@ -73,7 +73,7 @@
         </div> 
         <div class="row my-5">
           <div class="col-12">
-            <p class="display-4 text-center font-weight-bold">Ferramenta<br/>de alta <span class="bgText pl-2 pr-2">performance</span></p>
+            <p class="display-4 text-center font-weight-bold txtHow">Ferramenta<br/>de alta <span class="bgText pl-2 pr-2">performance</span></p>
             <p class="txtSubOne pt-3">Plataforma inteligente com métricas assertivas. Tudo que a sua<br/>empresa precisa para aumentar muito suas vendas online. </p>
           </div>
         </div>
@@ -163,6 +163,85 @@
         </div>
       </div>
     </section><!-- /fim Sessão 02 -->
+
+    <footer class="container-fluid bgFooter"><!-- início footer -->
+      <div class="container footerPTB">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-12">
+                <p class="txtFooter">Transforme<br/>seus cliques<br/>em vendas</p>
+                <p class="txtFooterB">Fale conosco:<br/>11 3758-1117</p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-lg-3">
+                <a href="#"><img src="images/google.png" class="img-fluid mx-auto d-block" alt="App GHS para Android"></a>
+              </div>
+              <div class="col-lg-3">
+                <a href="#"><img src="images/apple.png" class="img-fluid mx-auto d-block" alt="App GHS para Iphone"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-12 boxForm pt-5">
+                <p class="txtFooterC">COMPRE muito mais que<br/>cliques. compre leads!</p>
+                <p class="txtFooterD">Aproveite essa<br/>oportunidade incrível!</p>
+                <div class="pb-5">
+                  <form class="form-horizontal" name="form-gohotsale" id="form-gohotsale" method="POST" action="https://gohotsale.com.br/leads" novalidate>
+                    <input type="hidden" name="hotsite" id="hotsite" value="casa-toda-favorita-hotpage">
+                    <input type="hidden" name="company" id="company" value="favorita-mov-decor">
+                    <fieldset class="col-md-12">
+                    <?php if(isset($_GET['error']) && $_GET['error'] === 'profanity') { ?>
+                    <div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span class="sr-only">Erro:</span> Seja mais educado! </div>
+                    <?php } ?>
+                    <?php if(isset($_GET['error']) && $_GET['error'] === 'repeat') { ?>
+                    <div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <span class="sr-only">Erro:</span> Verifique os seus dados e tente novamente! </div>
+                    <?php } ?>
+                    <!-- Text input-->
+                    <div class="form-group"> 
+                        <!--label class="col-md-4 control-label" for="nome">Nome</label-->
+                        <div class="col-md-12">
+                        <input id="name" name="name" type="text" data-required placeholder="Nome" class="form-control input-md formulario" value="<?php if(isset($_GET['name'])) { echo $_GET['name']; } ?>" required="required">
+                        </div>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group"> 
+                        <!--label class="col-md-4 control-label" for="email">E-mail</label-->
+                        <div class="col-md-12">
+                        <input id="email" name="email" type="email" data-required placeholder="E-mail" class="form-control input-md formulario" value="<?php if(isset($_GET['email'])) { echo $_GET['email']; } ?>" required="required">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group"> 
+                        <!--label class="col-md-4 control-label" for="telefone">Telefone</label-->
+                        <div class="col-md-12">
+                        <input id="phone" name="phone" type="text" data-required required="required" placeholder="Telefone" value="<?php if(isset($_GET['phone'])) { echo $_GET['phone']; } ?>" class="form-control input-md formulario">
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="form-group"> 
+                        <!--label class="col-md-4 control-label" for="enviar"></label-->
+                        <div class="col-md-12" style="text-align: center;">
+                        <button id="enviar" name="enviar" class="hotEnviar">GARANTIR DESCONTO</button>
+                        </div>
+                    </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="txtCopy pt-5">© Todos os direitos reservados. Go Hot Sale 2019.</p>
+          </div>     
+        </div>
+      </div>
+    </footer><!-- /fim footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
