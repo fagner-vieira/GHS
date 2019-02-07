@@ -71,49 +71,98 @@
             <p class="txtTwo font-italic">Plataforma mais inteligente com métricas ainda mais assertivas. Tudo que a sua empresa precisa para aumentar muito as metas de vendas online.</p>
           </div>                    
         </div> 
+        <!--<div class="row my-5">
+          <div class="col-12">
+            <p class="display-4 text-center font-weight-bold txtHow">Ferramenta<br/>de alta <span class="bgText pl-2 pr-2">performance</span></p>
+            <p class="txtSubOne pt-3">Plataforma inteligente com métricas assertivas. Tudo que a sua<br/>empresa precisa para aumentar muito suas vendas online. </p>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5 justify-content-center">
+          <div class="col-xl-6">
+            <div class="row">
+              <div class="col-12">
+                <h4>GHS</h4>
+              </div>
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">CLiques (97%)</p>
+                <div class="progress ghsOne"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                  
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Leads (84%)</p>
+                <div class="progress ghsTwo"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                  
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Conversão (57%)</p>
+                <div class="progress ghsThree"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                  
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Custo médio por lead (R$13,00)</p>
+                <div class="progress ghsFour"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="row">
+              <div class="col-12">
+                <h4>Outros</h4>
+              </div>
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">CLiques (58%)</p>
+                <div class="progress outOne"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                      
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Leads (41%)</p>
+                <div class="progress outTwo"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                      
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Conversão (32%)</p>
+                <div class="progress outThree"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+                      
+              <div class="col-12 pt-2">
+                <p class="title txtBarTitle">Custo médio por lead (R$65,00)</p>
+                <div class="progress outFour"></div>
+                <p class="progress_value">&nbsp;</p>
+              </div>
+            </div>
+          </div>  
+        </div> -->  
       </div>
     </section><!-- /fim Sessão 01 -->
 
     <section class="continer-fluid bgContent02"><!-- inicio Sessão 02 -->
+      <div class="row justify-content-end marZero py-5">
+        <div class="col-lg-5 margInfo">
+          <p class="txtInfoZ">1 Mil Lead's</p>
+          <p class="txtInfo">pode te gerar até  <br/>R$ 1.000.000,00</p>
+        </div>
+        <div class="col-lg-4 marZero">
+            <img src="images/grafico.png" class="img-fluid" alt="">
+          </div>
+      </div>
       <div class="row justify-content-center mt-5 pt-5" style="margin:0">
         <div class="col-lg-3">
           <img src="images/cel.png" class="img-fluid mx-auto d-block" alt="">
         </div>
-        <div class="col-lg-4 mt-5 pt-5 ml-5">
-          <p class="display-4 mb-5 txtHow font-weight-bold">A evolução<br/>dos <span class="bgText pl-2 pr-2">formulários</span></p>
-          <p class="txtInfos font-weight-bold">Captação de muito mais leads para o seu negócio.</p>
-          <p class="txtInfos">O Go Hot Sale é a ferramenta mais moderna em termos de Conversão de Cliques em Leads e Gestão de Leads no funil de vendas. Através campanhas assertivas e HotSites atrativos, você contará com uma ferramenta inovadora:<span class="font-weight-bold" style="color:#cd4414;"> o GoChat</span>. Um chatbot inteligente que fará as perguntas certas para captação do seu lead.<br/><br/>Além disso, essa plataforma permite a interação em tempo real com o seu novo cliente, aumentando ainda mais a sua taxa de conversão.</p>
+        <div class="col-lg-2 mt-5 pt-5 ml-5">
+          <p class="txtInfo mb-5">Chatbot<br/>+Chat</p>
+          <p class="txtInfos">Uma nova forma de gerar leads e converter vendas logo no primeiro contato.</p>
+          <p class="txtInfos">O <strong>goChat</strong> é a ferramenta que te permite interagir com o seu consumidor a qualquer momento!</p>
         </div>
       </div>
     </section><!-- /fim Sessão 02 -->
-
-    <section class="continer-fluid bgContent03"><!-- inicio Sessão 03 -->
-      <div class="row justify-content-center mt-5 pt-5">
-        <div class="col-lg-5">
-          <p class="display-4 font-weight-bold txtInfoTwo mb-5">Com o GHS você será capaz de fazer as melhores campanhas de:</p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12">
-          <img src="images/infos.png" class="img-fluid mx-auto d-block"  alt="">
-        </div>
-      </div>
-      <div class="row my-5 justify-content-center">
-        <div class="col-lg-6 bgInfos p-5">
-          <p class="infoTitle">Google Search</p>
-          <p class="infoTxt">Veicule campanhas digitais assertivas na maior rede de buscas do mundo. Com essa ferramenta você impactará exatamente quem está querendo encontrar um serviço ou produto como o seu. É funcional e muito econômico!</p>
-          <p class="infoTitle mt-5">Mídia Programática</p>
-          <p class="infoTxt">Compre o melhor espaço para anunciar, pelo menor custo possível. Tudo isso através de um sistema de alta performance e inteligência. Além disso você:<br/><br/>
-                             - Aumenta a assertividade da campanha, mostrando seus anúncios para as pessoas certas, no momento certo. Tudo segmentado com as preferências do seu negócio.<br/><br/>
-                             - Diminui seus custos com anúncios enquanto aumenta a efetividade da campanha, tudo através de um sistema digital que regula a compra e venda nos leilões. <br/><br/>
-                             - Monitora através de ferramentas digitais, o exato alcance de uma campanha, acessando dados como número de visualizações, cliques e leads. </p>
-          <p class="infoTitle mt-5">Geomarketing</p>
-          <p class="infoTxt">Com recursos de Geolocalização através de sistemas GPS, AGPS, ondas de rádio e Wi-Fi, podemos segmentar o target de forma extremamente eficiente. Sendo assim, é possível impactar uma pessoa que está próxima ao seu negócio, aumentando muito suas vendas. Menos propaganda invasiva e mais marketing eficiente.</p>
-          <p class="infoTitle mt-5">Online e M]idias Sociais</p>
-          <p class="infoTxt">Obtenha dados precisos para nutrir suas campanhas de Mídias sociais. Venda mais através do Instagram e impacte o público certo pelo Facebook. Conheça profundamente o seu target e monte uma estratégia para ser cada vez mais digital! </p>                   
-        </div>
-      </div>
-    </section><!-- /fim Sessão 03 -->
 
     <footer class="container-fluid bgFooter"><!-- início footer -->
       <div class="container footerPTB">
@@ -126,10 +175,10 @@
               </div>
             </div>
             <div class="row ">
-              <div class="col-lg-3 my-3">
+              <div class="col-lg-3">
                 <a href="#"><img src="images/google.png" class="img-fluid mx-auto d-block" alt="App GHS para Android"></a>
               </div>
-              <div class="col-lg-3 my-3">
+              <div class="col-lg-3">
                 <a href="#"><img src="images/apple.png" class="img-fluid mx-auto d-block" alt="App GHS para Iphone"></a>
               </div>
             </div>

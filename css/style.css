@@ -42,9 +42,15 @@ body{
 
 .bgContent02{
     background-color: #fff;
-    background-image: url(../images/bgLines.png);
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+.bgContent03{
+    background-image: url(../images/bgLines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .txtSubOne{
@@ -114,7 +120,7 @@ h4{
     color: #b3b3b3;
     font-size: 4em;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 80px;
 }
 
 .txtInfoZ{
@@ -127,7 +133,7 @@ h4{
 
 .txtInfos, .txtBarTitle{
     color: #636363;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .bgFooter{
@@ -187,7 +193,28 @@ h4{
     font-weight: 700;
 }
 
+.txtInfoTwo{
+    text-align: center;
+}
 
+.bgInfos{
+    background-color: #fff;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 3px 12px #ccc;
+    -webkit-box-shadow: 2px 3px 12px #ccc;
+    box-shadow: 2px 3px 12px #ccc;
+}
+
+.infoTitle{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #ca3a0f;
+}
+
+.infoTxt{
+    font-size: 1.1em;
+    color: #636363;
+}
 
 
 
@@ -210,7 +237,7 @@ h4{
     }
 
     .txtHow{
-        font-size: 3em;
+        font-size: 2.7em;
     }
 
     .txtInfo {
@@ -218,16 +245,27 @@ h4{
         line-height: 33px;
         margin-top: 10px;
     }
+    .txtInfoTwo {
+        font-size: 1.8em;
+    }
+    .txtFooter {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .txtFooterB {
+        font-size: 1.3em;
+        text-align: center;
+    }
  }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {   ... } 
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {  ... } */
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }*/
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }*/
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
