@@ -20,7 +20,7 @@
           <img src="images/logo-ghs.png" class="img-fluid" alt="Logo Go Hot Sale">
         </div>
         <div class="col-6 text-right align-self-center">
-          <a href="#" class="btnB btn btn-light text-uppercase">entrar</a>
+          <a href="login.php" class="btnB btn btn-light text-uppercase">entrar</a>
         </div>
       </div>
     </header><!-- /fim topo-->
@@ -30,7 +30,7 @@
         <div class="row">
           <div class="col-12">
             <h1 class="text-center display-3 tituloOne">Transforme cliques<br/>em vendas!</h1>
-            <p class="text-center mt-5"><a href="#" class="btn btn-primary">Solicitar Contato</a></p>
+            <p class="text-center mt-5"><a href="#formulario" class="btn btn-primary">Solicitar Contato</a></p>
           </div>
         </div>
         <div class="row">
@@ -134,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" id="formulario">
             <div class="row">
               <div class="col-12 boxForm pt-5">
                 <p class="txtFooterC">COMPRE muito mais que<br/>cliques. compre leads!</p>
